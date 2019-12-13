@@ -1,8 +1,5 @@
-[{
+{
     "id": "VAT",
     "Value": "VATJackon"   
-    },
- {
-    "id": "GST",
-    "Value": "GSTJackon"   
-    }]
+    }
+
