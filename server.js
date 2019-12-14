@@ -7,7 +7,7 @@ app.get("/usrates", function(req, res) {
 });
 
 app.get("/gst", function(req, res) {
-  res.sendFile(__dirname + "/resources/rates.json");
+  res.sendFile(__dirname + "/resources/gst.json");
 });
 
 app.get("/vat", function(req, res) {
