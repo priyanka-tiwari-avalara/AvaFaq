@@ -10,12 +10,12 @@ app.get("/gst", function(req, res) {
   res.sendFile(__dirname + "/resources/gst.json");
 });
 
-app.get("/vat", function(req, res) {
-  res.sendFile(__dirname + "/resources/rates.json");
-});
-
 app.get("/taxcode", function(req, res) {
   res.sendFile(__dirname + "/resources/taxcode.json");
+});
+
+app.get("/vat", function(req, res) {
+  res.sendFile(__dirname + "/resources/rates.json");
 });
 
 // app.use(express.static(__dirname + "resources"));
