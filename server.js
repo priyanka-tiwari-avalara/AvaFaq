@@ -3,7 +3,7 @@ var app = express();
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get("/usrates", function(req, res) {
-  res.sendFile(__dirname + "/resources/rates.json");
+  res.sendFile(__dirname + "/resources/salestax.json");
 });
 
 app.get("/gst", function(req, res) {
